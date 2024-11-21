@@ -1,0 +1,4 @@
+.MuiDataGrid-panel[role="tooltip"],
+.MuiDataGrid-menu[role="tooltip"] {
+  z-index: 1080;
+}

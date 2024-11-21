@@ -1,0 +1,76 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",  // Root directory
+    "paths": {
+      "src/*": ["src/*"],
+      "plugins/*": ["plugins/*"],
+      "utilities/*": ["src/utilities/*"],
+      "static/*": ["src/static/*"],
+      "router/*": ["src/router/*"],
+      "pages/*": ["src/pages/*"],
+      "errors/*": ["src/errors/*"],
+      "messages/*": ["src/messages/*"],
+      "components/*": ["src/components/*"],
+      "charts/*": ["src/charts/*"],
+      "auths/*": ["src/auths/*"],
+      "assets/*": ["src/assets/*"]
+    },
+    "lib": ["es2015", "dom"],  // Add the ES library
+    "target": "es6"  // Optional: Specifies which ECMAScript version you want
+  },
+  "include": ["src", "plugins"]
+}
+
+
+
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "src/*": ["src/*"],
+//       "utilities/*": ["src/utilities/*"],
+//       "static/*": ["src/static/*"],
+//       "router/*": ["src/router/*"],
+//       "pages/*": ["src/pages/*"],
+//       "errors/*": ["src/errors/*"],
+//       "components/*": ["src/components/*"],
+//       "charts/*": ["src/charts/*"],
+//       "auths/*": ["src/auths/*"],
+//       "assets/*": ["src/assets/*"]
+//     }
+//   },
+//   "include": ["src"]
+// }
+
+
+// or
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": "src",  // Set to root directory
+//     "paths": {
+//       "*": ["*"],
+//       "src/*": ["*"],  // Map src to src
+//       "utilities/*": ["utilities/*"],
+//       "static/*": ["static/*"],
+//       "router/*": ["router/*"],
+//       "pages/*": ["pages/*"],
+//       "errors/*": ["errors/*"],
+//       "components/*": ["components/*"],
+//       "charts/*": ["charts/*"],
+//       "auths/*": ["auths/*"],
+//       "assets/*": ["assets/*"],
+//     }
+//   },
+//   "include": ["src", "plugins/axiosInstance.js"]
+// }
+
+
+
+
+
+
+
+
+
